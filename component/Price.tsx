@@ -3,7 +3,14 @@ import { Flex, Box, Text, Heading, Button } from "@chakra-ui/react";
 
 const Price = () => {
   return (
-    <Box>
+    <Box
+      shadow="0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)"
+      borderRadius="12px"
+      overflow="hidden"
+      w="994px"
+      m="auto"
+      mt="-165px"
+    >
       <Flex>
         <Box p="60px" bg="#F0EAFB" textAlign="center">
           <Text fontWeight="800" fontSize="24px">
@@ -19,7 +26,12 @@ const Price = () => {
             Get Started
           </Button>
         </Box>
-        <Box></Box>
+        <Box p="40px" bg="white">
+          <Text>
+            Access these features when you get this pricing package for your
+            business.
+          </Text>
+        </Box>
       </Flex>
     </Box>
   );

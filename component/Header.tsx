@@ -7,10 +7,10 @@ const Header = () => {
       as="section"
       bg="#6B46C1"
       color="#F7FAFC"
-      textAlign="center"
       pt="88.45px"
       pb="198px"
-      px="23px"
+      px="24px"
+      textAlign={["left", "left", "center"]}
     >
       <Heading fontWeight="800" fontSize="48px">
         Simple pricing for your business

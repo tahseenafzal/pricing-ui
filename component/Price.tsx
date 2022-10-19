@@ -13,7 +13,7 @@ const Price = () => {
         mt="-165px"
       >
         <Flex flexDirection={["column", "column", "row"]}>
-          <Box p="60px" bg="#F0EAFB" textAlign="center">
+          <Box p="60px" bg="purple.50" textAlign="center">
             <Text fontWeight="800" fontSize="24px">
               Premium PRO
             </Text>

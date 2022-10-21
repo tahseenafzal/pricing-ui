@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
+import Features from "../component/Features";
 import Header from "../component/Header";
 import Price from "../component/Price";
 
@@ -9,6 +8,7 @@ const Home: NextPage = () => {
     <>
       <Header />
       <Price />
+      <Features />
     </>
   );
 };

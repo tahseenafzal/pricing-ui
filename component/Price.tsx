@@ -1,5 +1,5 @@
-import React from "react";
-import { Flex, Box, Text, Heading, Button } from "@chakra-ui/react";
+import { Flex, Box, Text, Heading, Button, Stack } from "@chakra-ui/react";
+import ListItem from "./ListItem";
 
 const Price = () => {
   return (
@@ -13,7 +13,12 @@ const Price = () => {
         mt="-165px"
       >
         <Flex flexDirection={["column", "column", "row"]}>
-          <Box p="60px" bg="purple.50" textAlign="center">
+          <Box
+            py={["35px", "35px", "60px"]}
+            px={["6", "6", "60px"]}
+            bg="purple.50"
+            textAlign="center"
+          >
             <Text fontWeight="800" fontSize="24px">
               Premium PRO
             </Text>
@@ -27,10 +32,16 @@ const Price = () => {
               Get Started
             </Button>
           </Box>
-          <Box p="40px" bg="white">
+          <Box p={["15px", "15px", "12"]} bg="white">
             <Text>
               Access these features when you get this pricing package for your
               business.
+              <Stack as="ul" spacing={4} mt={6}>
+                <ListItem>International calling and messaging API</ListItem>
+                <ListItem>Additional phone numbers</ListItem>
+                <ListItem>Automated messages via Zapier</ListItem>
+                <ListItem>24/7 support and consulting</ListItem>
+              </Stack>
             </Text>
           </Box>
         </Flex>

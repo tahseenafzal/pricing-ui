@@ -36,13 +36,13 @@ const Price = () => {
             <Text>
               Access these features when you get this pricing package for your
               business.
-              <Stack as="ul" spacing={4} mt={6}>
-                <ListItem>International calling and messaging API</ListItem>
-                <ListItem>Additional phone numbers</ListItem>
-                <ListItem>Automated messages via Zapier</ListItem>
-                <ListItem>24/7 support and consulting</ListItem>
-              </Stack>
             </Text>
+            <Stack as="ul" spacing={4} mt={6}>
+              <ListItem>International calling and messaging API</ListItem>
+              <ListItem>Additional phone numbers</ListItem>
+              <ListItem>Automated messages via Zapier</ListItem>
+              <ListItem>24/7 support and consulting</ListItem>
+            </Stack>
           </Box>
         </Flex>
       </Box>
